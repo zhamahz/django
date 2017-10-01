@@ -11,3 +11,5 @@ def publish(self):
 	self.save()
 def __str__(self):
 	return self.title
+from .models import Post
+from django.shortcuts import render
